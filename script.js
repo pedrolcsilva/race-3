@@ -351,6 +351,9 @@ function race(lapNumber){
 
 document.getElementById('start-race').addEventListener('click', function(){
     raceResult(result)
+    document.getElementById('pedro-points').innerHTML = "Pedro: " + pointsP + " points"
+    document.getElementById('juca-points').innerHTML = "Juca: " + pointsJ + " points"
+    document.getElementById('edna-points').innerHTML = "Edna: " + pointsE + " points"
 })
 
 document.getElementById('stop-race').addEventListener('click', function(){
