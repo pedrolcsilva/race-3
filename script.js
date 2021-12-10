@@ -153,6 +153,7 @@ function levelUp(x){
                     car.vMax*= 1.01
                 })
                 pointsP-=450
+                document.getElementById('pedro-points').innerHTML = "Pedro: " + pointsP + " points"
                 pedroLv++
                 console.log(pedroLv)
                 document.getElementById('pedro-choise').innerHTML = "=> Level " + pedroLv
@@ -172,6 +173,7 @@ function levelUp(x){
                 })
                 jucaLv++
                 pointsJ-=450
+                document.getElementById('juca-points').innerHTML = "Juca: " + pointsJ + " points"
                 document.getElementById('juca-choise').innerHTML = "=> Level " + jucaLv
             }else{
                 alert('Level Máximo')
@@ -189,6 +191,7 @@ function levelUp(x){
                 })
                 ednaLv++
                 pointsE-=450
+                document.getElementById('edna-points').innerHTML = "Edna: " + pointsE + " points"
                 document.getElementById('edna-choise').innerHTML = "=> Level " + ednaLv
             }else{
                 alert('Level Máximo')
