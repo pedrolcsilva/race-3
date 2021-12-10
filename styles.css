@@ -1,0 +1,95 @@
+#result {
+    margin-top: 50px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    height: fit-content;
+    width: 600px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid red;
+}
+
+#start-race{
+    margin-top: 50px;
+    margin-left: 25px;
+    opacity: 0.6;
+}
+#stop-race{
+    opacity: 0.6;
+}
+
+.cars {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 75px;
+    width: fit-content;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid red;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+.cars button{
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.6;
+}
+
+.cars button:not(:first-child){
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(226, 226, 226);
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    opacity: 1;
+}
+
+.cars button.selected{
+    border: 1px solid black;
+    background-color: white;
+    color: rgb(0, 143, 12);
+}
+
+button {
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 143, 12);
+    color: white;
+    padding: 7px;
+}
+
+input {
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+#pedro, #juca, #edna {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 25px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#pedro-choise, #juca-choise, #edna-choise {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.levelup {
+    margin-left: 10px;
+    opacity: 0.6;
+}
